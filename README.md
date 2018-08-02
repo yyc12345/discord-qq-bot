@@ -31,7 +31,7 @@ pip install qqbot
 
 ## 创建配置
 
-项目根目录下已经有一个 *BotConfig-example.py* 文件了。此文件是此bot的设置模板。请复制一份并改名为 *BotConfig.py* 。请勿在创建此文件之前运行主程序。
+项目根目录下已经有一个 *Botconfig-example.py* 文件了。此文件是此bot的设置模板。请复制一份并改名为 *BotConfig.py* 。请勿在创建此文件之前运行主程序。
 
 ## 编写配置
 
