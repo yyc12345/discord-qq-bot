@@ -3,6 +3,7 @@ import datetime
 import threading
 import asyncio
 import queue
+import BotConfig
 from qqbot import QQBotSlot as qqbotslot, RunBot
 
 
@@ -18,16 +19,11 @@ qqMsg = queue.Queue(0)
 
 # ====================================================== load config
 
-f = open('bot.cfg', 'r', encoding='utf-8')
-config = f.read().replace('\n','').split('#')
-f.close()
-
-configBotToken = config[0]
-configDiscordListen = config[1].split(',')
-configDiscordForward = config[2].split(',')
-configQQListen = config[3].split(',')
-configQQForward = config[4].split(',')
-
+configBotToken = BotConfig.BotToken
+configDiscordListen = BotConfig.DiscordListen
+configDiscordForward = BotConfig.DiscordForward
+configQQListen = BotConfig.QQListen
+configQQForward = BotConfig.QQForward
 print(configBotToken)
 print(configDiscordListen)
 print(configDiscordForward)
