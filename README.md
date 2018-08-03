@@ -2,7 +2,7 @@
 
 一个能在Discord和QQ之间双向传递消息的Bot
 
-# 概述
+## 概述
 
 运行环境理论上要求Python 3.5+，已在Python 3.6上测试通过。
 
@@ -12,7 +12,7 @@
 
 ~~能跑起来不就行了呗 \#摊手~~
 
-# 环境配置
+## 环境配置
 
 当然你需要一个Discord bot和一个不用的QQ号。。。QQ号你肯定会自己弄，无需赘述。Discord bot可以参考Discord bot的开发教程获得。
 
@@ -27,13 +27,13 @@ pip install qqbot
 
 当你确信你的qqbot可以正常工作了，再进行下一步
 
-# 配置设置
+## 配置设置
 
-## 创建配置
+### 创建配置
 
 项目根目录下已经有一个 *Botconfig-example.py* 文件了。此文件是此bot的设置模板。请复制一份并改名为 *BotConfig.py* 。请勿在创建此文件之前运行主程序。
 
-## 编写配置
+### 编写配置
 
 * *BotToken* 是你的Discord bot的Token
 * *DiscordListen* 是你要监听的Disocrd频道的ID。当你进入一个频道时，频道ID会显示在网页URL的最后一部分（用 ```/``` 分割）
@@ -45,7 +45,7 @@ pip install qqbot
 
 配置完成后，保存配置文件即可。
 
-# 运行
+## 运行
 
 运行下面的指令以运行bot：
 
@@ -57,7 +57,7 @@ py discord-qq-bot.py
 
 如果想要停止运行，按任意键+回车即可。但是由于各种奇怪的原因，有时候进程结束不干净，你可以一路Ctrl+C和回车尝试关闭。你也可以暴力```taskkill```掉所有Python进程...
 
-# 缺点
+## 缺点
 
 * 继承[qqbot](https://github.com/pandolia/qqbot)的所有缺点
 * 有时候会显示2次Discord登陆信息，怀疑是qqbot作祟
