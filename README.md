@@ -2,6 +2,12 @@
 
 一个能在Discord和QQ之间双向传递消息的Bot
 
+## 遗弃项目通知
+
+[Smart QQ](https://web2.qq.com/)已于2019年1月3日停止服务，导致本项目的上游项目[qqbot](https://github.com/pandolia/qqbot)已无法使用，本项目不再更新和维护，转为存档。
+
+Due to that [Smart QQ](https://web2.qq.com/) has stopped its services on 1/3/2019. this project's dependency, [qqbot](https://github.com/pandolia/qqbot), couldn't work correctly. So, this project stop update and I will turn it into Archived Repository now.
+
 ## 概述
 
 运行环境理论上要求Python 3.5+，已在Python 3.6上测试通过。
